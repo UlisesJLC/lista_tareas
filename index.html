@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Crear Tarea</h1>
+    <form id="task-form">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo" required>
+        <br><br>
+        
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+        <br><br>
+        
+        <label for="fecha">Fecha Límite:</label>
+        <input type="date" id="fecha" name="fecha" required>
+        <br><br>
+        
+        <button type="submit">Crear Tarea</button>
+    </form>
+
+    <div id="lista-tareas">
+        <h2>Lista de Tareas</h2>
+        
+
+    </div>
+    <div id="lista-tareas-completadas">
+        <h2>Tareas Completadas</h2>
+
+    </div>
+
+</body>
+<script src="scripts/code.js"></script>
+</html>
